@@ -48,13 +48,14 @@
     font-weight: 800;
     line-height: 160%; 
     letter-spacing: 0.08px;
-    padding: 10px 20 px;
+    padding: 10px 20px;
     cursor: pointer;
     display: flex;
     align-items:center;
     padding-left: 29px;
     background-color: white;
     border: none;
+    white-space: nowrap;
 }
 
 .header__button  img {

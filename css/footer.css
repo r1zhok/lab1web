@@ -14,12 +14,6 @@
     background: var(--3, #9C69E2);
 }
 
-.footer__container1 {
-    width: 1117px;
-    height: 101px;
-    display: flex;
-}
-
 .footer__buttons {
     width: 410px;
     height: 60px;
@@ -67,11 +61,11 @@
     height: 101px;
     margin-top: 50px;
     margin-left: 240px;
+    position: absolute;
 }
 
 .footer--header {
     width: 405px;
-    height: 52px;
     color: #212353;
     font-family: Helvetica;
     font-size: 40px;
@@ -82,7 +76,6 @@
 
 .footer--paragraph1 {
     width: 584px;
-    height: 52px;
     margin-top: 20px;
     color: var(--1, #4B5D68);
     font-family: Avenir;
@@ -96,7 +89,7 @@
     width: 1117px;
     height: 60px;
     margin-left: 249px;
-    margin-top: 200px;
+    margin-top: 271px;
     display: flex;
 }
 

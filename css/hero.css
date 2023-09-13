@@ -37,6 +37,7 @@
     width: 170px;
     height: 60px;
     flex-shrink: 0;
+    margin-top: 50px;
     border-radius: 50px;
     background: var(--3, #9C69E2);
     color: #FFF;
