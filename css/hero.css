@@ -47,5 +47,6 @@
     font-style: normal;
     font-weight: 800;
     line-height: 160%;
+    cursor: pointer;
     border: none;
 }
