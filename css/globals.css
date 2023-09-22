@@ -1,0 +1,15 @@
+body{
+    width: 1600px;
+    height: 3146px;
+    font-family: "Helvetica", "Avenir";
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFF 19.4%);
+}
+
+a{
+    text-decoration: none;
+    color: #4B5D68;
+}
+
+li{
+    display: block;
+}
