@@ -1,0 +1,140 @@
+
+.hero {
+    margin-top: 130px;
+    width: 80%;
+    height: 564px;
+    margin-left: 15%;
+    margin-right: 5%;
+    display: flex;
+}
+
+.hero__inner {
+    position: relative;
+    z-index: 2;
+}
+
+.hero__img {
+    position: absolute;
+    z-index: 1;
+    right: 5%;
+    margin-top: 100px;
+}
+
+.hero__heading {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 184px;
+    color: var(--2, #212353);
+    font-family: Helvetica;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.hero__paragraph {
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 120px;
+    flex-shrink: 0;
+    color: var(--1, #4B5D68);
+    font-family: Avenir;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.hero__button {
+    width: 170px;
+    height: 60px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    border-radius: 50px;
+    background: var(--3, #9C69E2);
+    color: #FFF;
+    text-align: center;
+    font-family: Avenir;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%;
+    cursor: pointer;
+    border: none;
+    background-color: #9C69E2;
+    transition: background-color 0.3s;
+}
+
+.hero__button:active {
+    background-color: green;
+}
+
+@media screen and (max-width: 480px) {
+    .hero__heading {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .hero__paragraph {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .hero__button {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 780px) {
+    .hero__heading {
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    .hero__paragraph {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .hero__button {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .hero {
+        margin-top: 130px;
+        width: 80%;
+        height: 400px;
+        margin-left: 15%;
+        margin-right: 5%;
+        display: flex;
+    }
+
+    .hero__img {
+        display: none;
+    }
+
+    .hero__inner {
+        margin: 0 auto;
+        display: inline;
+    }
+
+    .hero__heading {
+        margin: 0 auto; 
+        width: 100%;
+    }
+
+    .hero__paragraph {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .hero__button {
+        margin: 0 auto;
+        align-self: center;
+    }
+}
